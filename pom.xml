@@ -5,7 +5,7 @@
 
     <groupId>org.github.flytreeleft</groupId>
     <artifactId>nexus3-keycloak-plugin</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <version>18.0.1</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>bundle</packaging>
 
@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.sonatype.nexus.plugins</groupId>
         <artifactId>nexus-plugins</artifactId>
-        <version>3.15.3-01</version>
+        <version>3.38.1-01</version>
     </parent>
 
     <properties>
@@ -36,7 +36,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <keycloak.version>9.0.2</keycloak.version>
+        <keycloak.version>18.0.1</keycloak.version>
     </properties>
 
     <issueManagement>
