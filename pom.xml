@@ -9,7 +9,7 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>bundle</packaging>
 
-    <url>https://github.com/flytreeleft/nexus3-keycloak-plugin</url>
+    <url>https://github.com/k8s-by/nexus3-keycloak-plugin</url>
     <description>
         This plugin adds a Keycloak realm to Sonatype Nexus OSS and enables you
         to authenticate with Keycloak Realm Users and authorize with Keycloak realm/client roles or groups.
@@ -41,7 +41,7 @@
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin/issues</url>
+        <url>https://github.com/k8s-by/nexus3-keycloak-plugin/issues</url>
     </issueManagement>
 
     <organization>
@@ -50,38 +50,30 @@
     </organization>
 
     <scm>
-        <connection>scm:git:git://github.com/flytreeleft/nexus3-keycloak-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:flytreeleft/nexus3-keycloak-plugin.git</developerConnection>
-        <url>https://github.com/flytreeleft/nexus3-keycloak-plugin</url>
+        <connection>scm:git:git://github.com/k8s-by/nexus3-keycloak-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:k8s-by/nexus3-keycloak-plugin.git</developerConnection>
+        <url>https://github.com/k8s-by/nexus3-keycloak-plugin</url>
     </scm>
 
     <developers>
         <developer>
-            <id>flytreeleft</id>
-            <name>flytreeleft</name>
-            <email>flytreeleft@126.com</email>
-            <url>https://github.com/flytreeleft</url>
-            <organization>Crazydan Studio</organization>
+            <id>k8s-by</id>
+            <name>alex202</name>
+            <email>alex202@k8s.by</email>
+            <url>https://github.com/k8s-by</url>
+            <organization>k8s.by</organization>
             <roles>
                 <role>project-owner</role>
                 <role>project-developer</role>
             </roles>
-            <timezone>+8</timezone>
+            <timezone>+3</timezone>
         </developer>
     </developers>
 
     <contributors>
         <contributor>
-            <name>hypery2k</name>
-            <url>https://github.com/hypery2k</url>
-        </contributor>
-        <contributor>
-            <name>boardend</name>
-            <url>https://github.com/boardend</url>
-        </contributor>
-        <contributor>
-            <name>TarasRozputnii</name>
-            <url>https://github.com/TarasRozputnii</url>
+            <name>alex-egorovk</name>
+            <url>https://github.com/alex-egorov</url>
         </contributor>
     </contributors>
 
@@ -204,12 +196,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/flytreeleft/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/k8s-by/nexus3-keycloak-plugin</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/flytreeleft/nexus3-keycloak-plugin</url>
+            <url>https://maven.pkg.github.com/k8s-by/nexus3-keycloak-plugin</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
