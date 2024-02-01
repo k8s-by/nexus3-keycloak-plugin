@@ -1,3 +1,12 @@
+## Build in docker
+
+```
+docker run --rm -it --privileged -v $(pwd):/data -w /data maven:3.8.5-jdk-8 mvn clean package -DskipTests
+
+```
+
+
+
 Nexus3 Keycloak Plugin
 ===============================
 
