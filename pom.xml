@@ -5,7 +5,7 @@
 
     <groupId>org.github.flytreeleft</groupId>
     <artifactId>nexus3-keycloak-plugin</artifactId>
-    <version>18.0.1</version>
+    <version>23.0.5</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>bundle</packaging>
 
@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.sonatype.nexus.plugins</groupId>
         <artifactId>nexus-plugins</artifactId>
-        <version>3.38.1-01</version>
+        <version>3.64.0-04</version>
     </parent>
 
     <properties>
@@ -36,7 +36,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <keycloak.version>18.0.1</keycloak.version>
+        <keycloak.version>23.0.5</keycloak.version>
     </properties>
 
     <issueManagement>
@@ -72,7 +72,7 @@
 
     <contributors>
         <contributor>
-            <name>alex-egorovk</name>
+            <name>alex-egorov</name>
             <url>https://github.com/alex-egorov</url>
         </contributor>
     </contributors>
